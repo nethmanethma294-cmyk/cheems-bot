@@ -1,9 +1,10 @@
 {
   "name": "cheems-bot",
   "version": "1.0.0",
-  "description": "Whatsapp bot",
+  "description": "whatsapp bot",
   "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "node bot.js"
   },
   "author": "",
@@ -18,7 +19,7 @@
     "qrcode-terminal": "^0.12.0",
     "random-animals-api": "^1.2.6",
     "sanitize-filename": "^1.6.3",
-    "whatsapp-web.js": "^1.23.0",
+    "whatsapp-web.js": "latest",
     "yt-search": "^2.10.4",
     "ytdl-core": "^4.11.5"
   }
